@@ -1,0 +1,70 @@
+<head>
+  <meta charset="utf-8" />
+  <title>Firebase Meetup</title>
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div id="app">
+    <img
+      src="https://firebasestorage.googleapis.com/v0/b/fir-web-codelab-62618.appspot.com/o/PNG%20image-D20BBD5502DA-1.png?alt=media&token=0b96fe68-29f8-4f65-85a4-678a9112455d"
+    />
+
+    <section id="event-details-container">
+      <h1>Zerinho Media</h1>
+
+      <p><i class="material-icons">whatsapp</i> +5511976454799</p>
+      <p><i class="material-icons">email</i> Kristjan@zerinho.io</p>
+      <!-- ADD THE RSVP BUTTON HERE -->
+      <button id="startRsvp">Seja parceiro</button>
+    </section>
+    <hr>
+    <section id="firebaseui-auth-container"></section>
+    </section>
+
+    <hr />
+
+    <section id="firebaseui-auth-container"></section>
+
+    <section id="description-container">
+      <h2>Contato para ofertas de patrocínio</h2>
+      <p>Oi, 
+      <br><br>
+      meu nome é Kristjan Akkermann e sou um petrolhead.<br>
+      Eu possuo Porsche 911/996, Alfa Romeo 156 2.0JTS e Triumph Speed Twin 1200. Escreva-me sobre sua ideia para patrocínio ou para revisar seu carro incrível (para vendas ou apenas por diversão).
+      <br><br>
+      Felicidades!
+      <br><br>
+      Kristjan</p><br>
+      <p id="number-attending"></p>
+    </section>
+
+    <section id="guestbook-container">        
+      <h2>Bem-vindo!</h2>
+      <form id="leave-message">
+        <label>Escreva sua ideia e entrarei em contato com você! </label><br>
+        <input type="text" id="message"><br>
+        <button type="submit">
+          <i class="material-icons">send</i>
+          <span>ENVIAR</span>
+        </button>
+      </form>
+
+    <section id="guestbook"></section>
+
+  </section>  
+</div>
+</body>
